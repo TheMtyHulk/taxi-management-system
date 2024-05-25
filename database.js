@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const connection = mysql.createConnection({
-  host: "sql12.freesqldatabase.com",
-  user: "sql12709206",
-  password: "H8mkUzDPWS",
-  database: "sql12709206",
+  host:  process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
   insecureAuth: true,
 });
 
