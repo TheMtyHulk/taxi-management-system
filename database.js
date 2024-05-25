@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "taxi_management_db",
+  host: "sql12.freesqldatabase.com",
+  user: "sql12709206",
+  password: "H8mkUzDPWS",
+  database: "sql12709206",
   insecureAuth: true,
 });
 
