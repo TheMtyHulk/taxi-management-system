@@ -1,6 +1,6 @@
 <h1> Taxi Management System </h1>
 
-A PBL (Project Based Learning) project for the course DBE (Database Engineering) at Kolhapur Institute of Technology.  
+A PBL (Project Based Learning) project for the course DBMS (Database Engineering) at JNN College of Engineering.  
 A simple Taxi Management System.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
